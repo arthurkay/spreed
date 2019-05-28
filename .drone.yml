@@ -472,9 +472,9 @@ steps:
       - cd tests/integration/
       - bash run.sh features/callapi
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -506,9 +506,9 @@ steps:
       - cd tests/integration/
       - bash run.sh features/chat
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -540,9 +540,9 @@ steps:
       - cd tests/integration/
       - bash run.sh features/conversation
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -574,9 +574,9 @@ steps:
       - cd tests/integration/
       - bash run.sh --tags set-1 features/sharing
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -608,9 +608,9 @@ steps:
       - cd tests/integration/
       - bash run.sh --tags set-2 features/sharing
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -642,9 +642,9 @@ steps:
       - cd tests/integration/
       - bash run.sh --tags set-3 features/sharing
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
@@ -676,9 +676,9 @@ steps:
       - cd tests/integration/
       - bash run.sh --tags set-4 features/sharing
 
-services:
-  - name: cache
-    image: redis
+#services:
+  #- name: cache
+    #image: redis
 
 trigger:
   branch:
