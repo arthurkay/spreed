@@ -456,7 +456,7 @@ name: int-sqlite-callapi
 
 steps:
   - name: integration-callapi
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -490,7 +490,7 @@ name: int-sqlite-chat
 
 steps:
   - name: integration-chat
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -524,7 +524,7 @@ name: int-sqlite-conversation
 
 steps:
   - name: integration-conversation
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -558,7 +558,7 @@ name: int-sqlite-sharing-set-1
 
 steps:
   - name: integration-sharing
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -592,7 +592,7 @@ name: int-sqlite-sharing-set-2
 
 steps:
   - name: integration-sharing
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -626,7 +626,7 @@ name: int-sqlite-sharing-set-3
 
 steps:
   - name: integration-sharing
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
@@ -660,7 +660,7 @@ name: int-sqlite-sharing-set-4
 
 steps:
   - name: integration-sharing
-    image: nextcloudci/acceptance-php7.1:acceptance-php7.1-2
+    image: nextcloudci/php7.2:php7.2-12
     environment:
       APP_NAME: spreed
       CORE_BRANCH: master
